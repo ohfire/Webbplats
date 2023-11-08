@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Webbplats - Start</title>
+    <title>Kontakta Mig</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Välkommen till Sanno's Webbplats</h1>
+        <h1>Kontakta Mig</h1>
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Om Mig</h2>
-            <br>
-            <p>Jag är Sanno, och detta är min webbplats. Här kan du lära känna mig och utforska mina intressen.</p>
-       <br>
-        </section>
+        <section class="contact-form">
+            <h2>Skicka ett meddelande</h2>
+            <form action="process.php" method="post">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
 
-        <section class="interests">
-            <h2>Mina Intressen</h2>
-            <ul>
-                <li>Webbutveckling</li>
-                <li>Programmering</li>
-                <li>Gym</li>
-            </ul>
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Ditt meddelande:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Skicka</button>
+            </form>
         </section>
     </main>
 
