@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!-- Anger dokumenttypen för HTML -->
+<html lang="sv"> <!-- Anger webbsidans språk -->
+<head>
+    <meta charset="UTF-8"> <!-- Anger teckenkodningen för webbsidan -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Anpassar visningen för olika enheter -->
+    <title>Sanno's Webbplats - Startsida</title> <!-- Webbplatsens titel som visas i webbläsaren, har tomma mellanslag för att det ser snyggare -->
+    <link rel="stylesheet" href="style.css"> <!-- Länkar till den externa CSS-filen för webbsidans utseende -->
+</head>
+<body>
+    <header>
+        <h1>Sanno's Webbplats &#128293;</h1> <!-- Rubrik i sidhuvudet -->
+        <nav>
+            <ul class="global-menu"> <!-- En oordnad lista för den globala menyn -->
+                <li><a href="index.html">Start</a></li> <!-- Menylänk till startsidan -->
+                <li><a href="statistik.html">Statistik</a></li> <!-- Menylänk till statistiksidan -->
+                <li><a href="kontakt.html">Kontakt</a></li> <!-- Menylänk till kontaktsidan -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Välkommen till min webbsida!</h2> <!-- Underrubrik i sidans huvudinnehåll -->
+        <nav>
+            <ul>
+                <li><a href="https://teknikum.se/">Teknikums Hemsida</a></li> <!-- Extern länk till Teknikums hemsida -->
+            </ul>
+        </nav>
+
+        <p>Här är några bilder:</p> <!-- Text i huvudinnehållet -->
+        <div class="image-container"> <!-- En behållare för bilder -->
+            <a href="https://youtube.com">
+                <img src="moln.jpeg" alt="Bild 1"> <!-- Bild 1 med en länk till YouTube -->
+            </a>
+            <a href="https://youtube.com">
+                <img src="moln.jpeg" alt="Bild 2"> <!-- Bild 2 med en länk till YouTube -->
+            </a>
+        </div>
+        <h3>En lista:</h3> <!-- Underrubrik för en lista -->
+        <ul> <!-- En oordnad lista -->
+            <li>Första punkten</li> <!-- Listpunkt 1 -->
+            <li>Andra punkten</li> <!-- Listpunkt 2 -->
+            <li>Tredje punkten</li> <!-- Listpunkt 3 -->
+        </ul>
+
+        <h3>En tabell:</h3> <!-- Underrubrik för en tabell -->
+        <table> <!-- En tabell för att visa data i tabellformat -->
+            <tr> <!-- En rad i tabellen (tabellhuvud) -->
+                <th>Namn</th> <!-- Tabellcell för namn -->
+                <th>Ålder</th> <!-- Tabellcell för ålder -->
+                <th>Klass</th> <!-- Tabellcell för klass -->
+            </tr>
+            <tr> <!-- En rad i tabellen (data) -->
+                <td>Sanno</td> <!-- Tabellcell med namndata -->
+                <td>16</td> <!-- Tabellcell med ålderdata -->
+                <td>TE22A</td> <!-- Tabellcell med klassdata -->
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Din Webbplats AB</p> <!-- Copyright-text i sidfoten -->
+        <p class="klass">Webbutveckling Kurs A</p> <!-- Text i sidfoten med CSS-klassen "klass" -->
+    </footer>
+</body>
+</html>

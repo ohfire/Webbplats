@@ -1,0 +1,136 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set the font family for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Style the main header text */
+header h1 {
+    font-size: 2em;
+}
+
+/* Style the global menu */
+.global-menu {
+    list-style: none;
+}
+
+/* Style individual menu items */
+.global-menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Style links within the menu */
+.global-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Main content styles */
+main {
+    margin: 20px;
+}
+
+/* Style for main content headers (h2) */
+h2 {
+    font-size: 1.5em;
+}
+
+/* Style the navigation menu within the main content */
+nav ul {
+    list-style: none;
+}
+
+/* Style individual navigation menu items */
+nav li {
+    margin: 10px 0;
+}
+
+/* Style links within the main content */
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the container for images */
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the links around images */
+.image-container a {
+    margin: 0 20px;
+}
+
+/* Style all images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+/* Style unordered lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style table header (th) and table data (td) cells */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style table header (th) cells with a background color */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Apply zebra striping to table rows */
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style a class named "klass" */
+.klass {
+    font-size: 0.8em;
+}
+
+/* Style images */
+img {
+    max-width: 20%;
+    border-radius: 10px;
+}
